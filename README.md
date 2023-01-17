@@ -1,5 +1,5 @@
 # MiCurriculumVitae
 Mi Currículum Vitae en Internet, desde una página Web.
 
-Estoy intentando subir mi README.txt
+**Este es un proyecto final como consecuencia del curso Ticmas - Primeros pasos del desarrollo Front End**
 
