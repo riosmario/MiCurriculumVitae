@@ -3,7 +3,7 @@
 .principal {
   display: flex;
   width: 1200px;
-  height: 1800px;
+  height: 2200px;
   margin: auto;
   border: 2px solid black;
   font-family: 'Sofia Sans', sans-serif;
@@ -29,8 +29,29 @@ dt {
 
 dd {
   margin: 0px auto 20px;
-
 }
+
+.contacto {
+  margin-top: 200px;
+}
+
+.title_educacion {
+  font-size: xx-large;
+}
+
+p {
+  font-size: 40px;
+  font-weight: 800;
+  border-bottom: 2px solid white;
+}
+
+.numero {
+  border-bottom: none;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+
 
 aside figure img {
   width: 100%;
