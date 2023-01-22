@@ -45,7 +45,7 @@ dd {
   font-size: xx-large;
 }
 
-h2 {
+.aside h2 {
   font-size: 40px;
   font-weight: 800;
   border-bottom: 2px solid white;
@@ -88,10 +88,24 @@ ul li {
   font-size: 25px;
 }
 
+#ingles {
+  list-style: none;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
 /*------------ MAIN ----------*/
 
 .main {
   width: 70%;
+}
+
+.main h2 {
+  font-size: 40px;
+  font-weight: 800;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  text-align: center;
 }
 
 h1,
@@ -106,7 +120,7 @@ h1 {
   height: 30px;
 }
 
-section article h2 {
+h1 {
   margin-top: -15px;
   border: 2px solid rgb(206, 206, 249);
 }
@@ -121,10 +135,12 @@ section article h2 {
 
 .experiencia {
   margin: 20px;
+  background-color: rgb(212, 252, 248);
+  padding: 15px;
 }
 
 #exp_1,
 #exp_2 {
-  margin: 60px 0px 40px 0px;
+  margin: 60px 0px 0px 0px;
 }
 
