@@ -9,6 +9,7 @@
   font-family: 'Sofia Sans', sans-serif;
   font-size: larger;
   padding: 10px;
+  background-color: rgb(226, 240, 252);
   
 }
 
@@ -81,3 +82,30 @@ meter {
 
 /*------------ MAIN ----------*/
 
+.main {
+  width: 70%;
+}
+
+h1,
+section article h2 {
+  width: 100%;
+  font-size: 100px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  height: 30px;
+}
+
+section article h2 {
+  margin-top: -15px;
+  border: 2px solid rgb(206, 206, 249);
+}
+
+.nombre article {
+  height: 250px;
+  margin-top: 80px;
+  background-color: rgb(206, 206, 249) ;
+  border: 2px solid black;
+}
