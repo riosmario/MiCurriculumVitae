@@ -38,11 +38,15 @@ dd {
 .contacto {
   margin-bottom: 50px;
   border: 2px solid black;
-  
 }
 
 .title_educacion {
   font-size: xx-large;
+}
+
+.borde-inferior {
+  border-bottom: 2px dashed white;
+  padding-bottom: 20px;
 }
 
 .aside h2 {
@@ -103,37 +107,38 @@ ul li {
 .main h2 {
   font-size: 40px;
   font-weight: 800;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
+  border-bottom: 3px solid rgb(0, 0, 66);
+  border-top: 3px solid rgb(0, 0, 66);
   text-align: center;
+  background-color: rgb(206, 206, 249);
+  margin: 60px;
 }
 
-h1,
-section article h2 {
+.nombre {
   width: 100%;
-  font-size: 100px;
+  font-size: 85px;
   text-align: center;
 }
 
-h1 {
-  margin-top: 10px;
+#apellido {
   height: 30px;
 }
 
-h1 {
+#nombres {
   margin-top: -15px;
   border: 2px solid rgb(206, 206, 249);
 }
 
 .nombre article {
-  height: 250px;
+  height: 230px;
   margin-top: 80px;
   background-color: rgb(206, 206, 249) ;
 }
 
 /*---------Experiencia-------------*/
 
-.experiencia {
+.experiencia,
+.habilidades {
   margin: 20px;
   background-color: rgb(212, 252, 248);
   padding: 15px;
@@ -142,5 +147,14 @@ h1 {
 #exp_1,
 #exp_2 {
   margin: 60px 0px 0px 0px;
+  border-bottom: 2px dashed black;
+
 }
+
+/*---------Habilidades-------------*/
+
+
+
+
+
 
