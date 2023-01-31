@@ -151,10 +151,42 @@ ul li {
 
 }
 
-/*---------Habilidades-------------*/
+/*---------Redes Sociales-------------*/
 
+.redes-sociales {
+  margin: auto;
+  margin-left: 72px;
+  width:80%;
+}
 
+.sociales {
+  width: 80px;
+  margin: 0px 25px 0px 25px;
+}
 
+.facebook, .twiter, .linkedin {
+  border-radius: 50%;
+}
+
+.instagram {
+  border-radius: 15px;
+}
+
+.texto-sociales p {
+  display: inline-block;
+  margin: 0px 35px 0px 35px;
+  
+}
+
+.texto-sociales {
+  margin: auto;
+  margin-left: 79px;
+  width: 75%;
+  font-weight:bolder;
+  font-size:medium;
+  text-align: center;
+  margin-top: -15px;
+}
 
 
 
