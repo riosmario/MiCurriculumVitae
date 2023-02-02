@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,125 +14,137 @@
   <script src="/script.js"></script>
   <title>Mi Curriculum Vitae</title>
 </head>
+
 <body>
+<!--Primera parte, barra lateral Aside: Foto, datos filiatorios, estudios, odiomas, contacto-->
   <div class="principal">
     <aside class="aside">
-    <section>
-      <figure>
-        <img src="/IMAGENES/fotoCVult.jpg" alt="Foto CV">
-      </figure>
-    </section>
-    <section class="datos-personales">
-      <h2>DATOS PERSONALES</h2>
-      <dl>
-        <dt>DNI: </dt>
-        <dd>12.345.678</dd>
-        <dt>CUIL: </dt>
-        <dd>12-12.345.678-9</dd>
-        <dt>EDAD: </dt>
-        <dd>48 años</dd>
-        <dt>Fecha de Nacimiento: </dt>
-        <dd>01 de enero de 1974</dd>
-        <dt>DIRECCION:
-        <dd>Los Hidalgos 5465. Córdoba</dd>
-        <dt>EMAIL:</dt>
-        <a href="#" onclick="mail()"><dd style="color: yellow; ">algo@hotmail.com</dd></a>
-      </dl>
-    </section>
-    <section class="educacion section-aside">
-      <h2>ESTUDIOS</h2>
-      <dl>
-        <dt class="title_educacion">EDUCACIÓN MEDIA: </dt>
-        <dd>Lorem Ipsum Dolor Sit Amet.</dd>
-        <dt>TITULO OBTENIDO: </dt>
-        <dd class="borde-inferior">Lorem, ipsum dolor sit amet consectetur adipisicing.</dd>
-        <p> </p>
-        <dt class="title_educacion">EDUCACIÓN SUPERIOR: </dt>
-        <dd>Lorem Ipsum Dolor Sit Amet Consectetur.</dd>
-        <dt>TITULO OBTENIDO: </dt>
-        <dd class="borde-inferior">Lorem ipsum dolor sit amet onsectetur.</dd>
-      </dl>
-    </section>
-    <section class="idiomas section-aside">
-      <h2>IDIOMAS</h2>
-      <ul>
-        <li id="ingles"><strong>INGLÉS:</strong></li>
-        <li>Lorem
-          <meter value="80" min="0" max="100"></meter>
-        </li>
-        <li>Lorem
-          <meter value="60" min="0" max="100"></meter>
-          </li>
-      </ul>
-    </section>
-    <section class="contacto section-aside">
-      <h2>CONTACTO</h2>
-      <h3 class="numero">351-6789012</h3>
-    </section>
-    </aside>
-
-    <main class="main">
-    <section class="nombre">
-      <article>
-        <h1 id="apellido">RIOS</h1>
-        <h1 id="nombres">MARIO OMAR</h1>
-      </article>
-    </section>
-    <section class="experiencia">
-      <h2>EXPERIENCIA</h2>
-      <div>
-        <dl id="exp_1">
-          <dt>LOREM IPSUN</dt>
-          <dd>2001 - 2005</dd>
-          <dt>Tareas realizadas: Lorem ipsum </dt>
-          <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non dolore omnis deserunt! Repellat, iure sed? Omnis est eaque incidunt!</dd>
-        </dl>
-        <dl id="exp_2">
-          <dt>LOREM IPSUM</dt>
-          <dd>2006 - 2015</dd>
-          <dt>Tareas realizadas: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, hic.</dt>
-          <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eum modi sequi odio consectetur error minus provident molestias rerum tenetur fugiat sit quisquam, aut est alias dolore beatae distinctio. Nisi!</dd>
-        </dl>
-        <dl id="exp_3">
-          <dt>LOREM IPSUM</dt>
-          <dd>2015 - 2023</dd>
-          <dt>Tareas realizadas: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, hic.</dt>
-          <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eum modi molestias rerum tenetur fugiat sit quisquam, aut est alias dolore beatae distinctio. Nisi!</dd>
-        </dl>
-      </div>
-    </section>
-    <section class="habilidades">
-      <h2>HABILIDADES</h2>
-      <ul>
-        <li>Manejo de Pc: Windows, Microsoft Office</li> 
-        <meter value="95" min="0" max="100"></meter>
-        <li>Manejo de Software de Diseño</li> 
-        <meter value="90" min="0" max="100"></meter>
-        <li>Proactivo</li> 
-        <meter value="90" min="0" max="100"></meter>
-        <li>Trabajo en Equipo</li> 
-        <meter value="85" min="0" max="100"></meter>
-        <li>Responsabilidad</li> 
-        <meter value="100" min="0" max="100"></meter>
-      </ul>
-    </section>
-    <section>
-      <h2>REDES SOCIALES</h2>
-      <div class="redes-sociales">
+      <section>
         <figure>
-          <a href="#" onclick="alertaimagen()"> <img class="sociales instagram" src="/IMAGENES/instagram.jpg" alt="instagram"></a>
-          <a href="#" onclick="alertaimagen()"><img class="sociales facebook" src="/IMAGENES/facebook.jpg" alt="facebook"></a>
-          <a href="#" onclick="alertaimagen()"><img class="sociales twiter" src="/IMAGENES/twiter.jpg" alt="twiter"></a>
-          <a href="#" onclick="alertaimagen()"><img class="sociales linkedin" src="/IMAGENES/linkedin.jpg" alt="linkedin"></a>
+          <img src="/IMAGENES/fotoCVult.jpg" alt="Foto CV">
         </figure>
-      </div>
-      <div class="texto-sociales">
-        <p>Instagram</p>
-        <p>Facebook</p>
-        <p>Twiter</p>
-        <p>LinkedIn</p>
+      </section>
+      <section class="datos-personales">
+        <h2>DATOS PERSONALES</h2>
+        <dl>
+          <dt>DNI: </dt>
+          <dd>12.345.678</dd>
+          <dt>CUIL: </dt>
+          <dd>12-12.345.678-9</dd>
+          <dt>EDAD: </dt>
+          <dd>48 años</dd>
+          <dt>Fecha de Nacimiento: </dt>
+          <dd>01 de enero de 1974</dd>
+          <dt>DIRECCION:
+          <dd>Los Hidalgos 5465. Córdoba</dd>
+          <dt>EMAIL:</dt>
+          <a href="#" onclick="mail()">
+            <dd style="color: yellow; ">algo@hotmail.com</dd>
+          </a>
+        </dl>
+      </section>
+      <section class="educacion section-aside">
+        <h2>ESTUDIOS</h2>
+        <dl>
+          <dt class="title_educacion">EDUCACIÓN MEDIA: </dt>
+          <dd>Lorem Ipsum Dolor Sit Amet.</dd>
+          <dt>TITULO OBTENIDO: </dt>
+          <dd class="borde-inferior">Lorem, ipsum dolor sit amet consectetur adipisicing.</dd>
+          <p> </p>
+          <dt class="title_educacion">EDUCACIÓN SUPERIOR: </dt>
+          <dd>Lorem Ipsum Dolor Sit Amet Consectetur.</dd>
+          <dt>TITULO OBTENIDO: </dt>
+          <dd class="borde-inferior">Lorem ipsum dolor sit amet onsectetur.</dd>
+        </dl>
+      </section>
+      <section class="idiomas section-aside">
+        <h2>IDIOMAS</h2>
+        <ul>
+          <li id="ingles"><strong>INGLÉS:</strong></li>
+          <li>Lorem
+            <meter value="80" min="0" max="100"></meter>
+          </li>
+          <li>Lorem
+            <meter value="60" min="0" max="100"></meter>
+          </li>
+        </ul>
+      </section>
+      <section class="contacto section-aside">
+        <h2>CONTACTO</h2>
+        <h3 class="numero">351-6789012</h3>
+      </section>
+    </aside>
+<!--Segunda parte: el Main donde estan los Nombres, Experiencia, habilidades y Redes Sociales-->
+    <main class="main">
+      <section class="nombre">
+        <article>
+          <h1 id="apellido">RIOS</h1>
+          <h1 id="nombres">MARIO OMAR</h1>
+        </article>
+      </section>
+      <section class="experiencia">
+        <h2>EXPERIENCIA</h2>
+        <div>
+          <dl id="exp_1">
+            <dt>LOREM IPSUN</dt>
+            <dd>2001 - 2005</dd>
+            <dt>Tareas realizadas: Lorem ipsum </dt>
+            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non dolore omnis deserunt! Repellat, iure
+              sed? Omnis est eaque incidunt!</dd>
+          </dl>
+          <dl id="exp_2">
+            <dt>LOREM IPSUM</dt>
+            <dd>2006 - 2015</dd>
+            <dt>Tareas realizadas: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, hic.</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eum modi sequi odio consectetur error
+              minus provident molestias rerum tenetur fugiat sit quisquam, aut est alias dolore beatae distinctio. Nisi!
+            </dd>
+          </dl>
+          <dl id="exp_3">
+            <dt>LOREM IPSUM</dt>
+            <dd>2015 - 2023</dd>
+            <dt>Tareas realizadas: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, hic.</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eum modi molestias rerum tenetur fugiat
+              sit quisquam, aut est alias dolore beatae distinctio. Nisi!</dd>
+          </dl>
         </div>
-    </section>
+      </section>
+      <section class="habilidades">
+        <h2>HABILIDADES</h2>
+        <ul>
+          <li>Manejo de Pc: Windows, Microsoft Office</li>
+          <meter value="95" min="0" max="100"></meter>
+          <li>Manejo de Software de Diseño</li>
+          <meter value="90" min="0" max="100"></meter>
+          <li>Proactivo</li>
+          <meter value="90" min="0" max="100"></meter>
+          <li>Trabajo en Equipo</li>
+          <meter value="85" min="0" max="100"></meter>
+          <li>Responsabilidad</li>
+          <meter value="100" min="0" max="100"></meter>
+        </ul>
+      </section>
+      <section>
+        <h2>REDES SOCIALES</h2>
+        <div class="redes-sociales">
+          <figure>
+            <a href="#" onclick="alertaimagen()"> <img class="sociales instagram" src="/IMAGENES/instagram.jpg"
+                alt="instagram"></a>
+            <a href="#" onclick="alertaimagen()"><img class="sociales facebook" src="/IMAGENES/facebook.jpg"
+                alt="facebook"></a>
+            <a href="#" onclick="alertaimagen()"><img class="sociales twiter" src="/IMAGENES/twiter.jpg"
+                alt="twiter"></a>
+            <a href="#" onclick="alertaimagen()"><img class="sociales linkedin" src="/IMAGENES/linkedin.jpg"
+                alt="linkedin"></a>
+          </figure>
+        </div>
+        <div class="texto-sociales">
+          <p>Instagram</p>
+          <p>Facebook</p>
+          <p>Twiter</p>
+          <p>LinkedIn</p>
+        </div>
+      </section>
 
     </main>
   </div>
@@ -140,6 +153,7 @@
 
 
 
-  
+
 </body>
+
 </html>
