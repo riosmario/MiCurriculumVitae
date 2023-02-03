@@ -1,3 +1,11 @@
+/*----------Aplicando Flexbox ---------------*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 /*------------APLICANDO FLEX A SECTION principal ----------*/
 
 .principal {
@@ -50,19 +58,12 @@ dd {
 }
 
 .aside h2 {
-  font-size: 40px;
+  font-size: 200%;
   font-weight: 800;
   border-bottom: 2px solid white;
   border-top: 2px solid white;
   text-align: center;
 }
-
-/*
-.numero {
-  border-bottom: none;
-  font-size: 40px;
-  border-bottom: 150px;
-}*/
 
 h3 {
   font-size: 40px;
@@ -116,12 +117,24 @@ ul li {
 
 .nombre {
   width: 100%;
-  font-size: 85px;
+  font-size: 80px;
   text-align: center;
 }
 
+@media (max-width: 900px) {
+  .nombre {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 740px) {
+  .nombre {
+    font-size: 50px;
+  }
+}
+
 #apellido {
-  height: 30px;
+  height: 50px;
 }
 
 #nombres {
