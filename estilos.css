@@ -198,7 +198,32 @@ ul li {
   border-radius: 15px;
 }
 
+/*---------Gracias-------------*/
 
+.te-gusto {
+  width: auto;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+}
 
+#si {
+  width: 80px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: large;
 
+}
+
+#no {
+  width: 80px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+
+}
 
