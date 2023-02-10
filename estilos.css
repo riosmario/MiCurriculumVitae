@@ -11,7 +11,7 @@
 .principal {
   display: flex;
   width: 1200px;
-  height: 2300px;
+  height: 2500px;
   margin: auto;
   border: 4px solid rgb(0, 0, 66);
   font-family: 'Sofia Sans', sans-serif;
@@ -121,15 +121,22 @@ ul li {
   text-align: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 890px) {
   .nombre {
     font-size: 60px;
   }
+  .principal {
+    height: 2800px;
+  }
+
 }
 
 @media (max-width: 740px) {
   .nombre {
     font-size: 50px;
+  }
+  .principal {
+    height: 3000px;
   }
 }
 
@@ -191,21 +198,7 @@ ul li {
   border-radius: 15px;
 }
 
-.texto-sociales p {
-  display: inline-block;
-  margin: 0px 35px 0px 35px;
-  
-}
 
-.texto-sociales {
-  margin: auto;
-  margin-left: 79px;
-  width: 75%;
-  font-weight:bolder;
-  font-size:medium;
-  text-align: center;
-  margin-top: -15px;
-}
 
 
 
