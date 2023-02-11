@@ -1,3 +1,5 @@
+/*----Este CURRICULUM ha sido confeccionado usando Microsoft Edge---*/
+
 /*----------Aplicando Flexbox ---------------*/
 
 .flex-container {
@@ -11,7 +13,7 @@
 .principal {
   display: flex;
   width: 1200px;
-  height: 2500px;
+  height: 2550px;
   margin: auto;
   border: 4px solid rgb(0, 0, 66);
   font-family: 'Sofia Sans', sans-serif;
@@ -121,22 +123,32 @@ ul li {
   text-align: center;
 }
 
+@media (max-width: 1100px) {
+  .nombre {
+    font-size: 60px;
+  }
+  .principal {
+    height: 2700px;
+  }
+
+}
+
 @media (max-width: 890px) {
   .nombre {
     font-size: 60px;
   }
   .principal {
-    height: 2800px;
+    height: 2900px;
   }
 
 }
 
-@media (max-width: 740px) {
+@media (max-width: 794px) {
   .nombre {
     font-size: 50px;
   }
   .principal {
-    height: 3000px;
+    height: 3200px;
   }
 }
 
@@ -202,7 +214,8 @@ ul li {
 
 .te-gusto {
   width: auto;
-  padding: 30px;
+  height: 150px;
+  padding: 10px 0px 15px 0px;
   text-align: center;
   font-weight: bold;
 }
