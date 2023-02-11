@@ -227,3 +227,11 @@ ul li {
 
 }
 
+.nota-final {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size:medium;
+  color: blue;
+}
